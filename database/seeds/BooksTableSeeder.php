@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Cd;
+use App\Book;
 use Faker\Generator as Faker;
 class BooksTableSeeder extends Seeder
 {
@@ -22,5 +22,6 @@ class BooksTableSeeder extends Seeder
         $faker->randomFloat($nbMaxDecimals = 2, $min = 30, $max = 9999);
         $newBook->date_production = '2019-01-01';
         $newBook->save();
+      }
     }
 }
