@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Cd;
+use Faker\Generator as Faker;
 class BooksTableSeeder extends Seeder
 {
     /**
