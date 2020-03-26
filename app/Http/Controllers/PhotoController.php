@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Photo;
+use App\User;
 
 class PhotoController extends Controller
 {
@@ -15,7 +16,6 @@ class PhotoController extends Controller
     public function index()
     {
       $photos = Photo::all();
-
       return view('photo.index', compact('photos'));
     }
 
