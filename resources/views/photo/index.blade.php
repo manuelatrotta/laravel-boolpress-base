@@ -10,6 +10,7 @@
   <div class="posts">
   @foreach ($photos as $photo)
     <div class="post">
+      <h2>Nome dell'utente della foto {{$photo->user->name}}</h2>
       <ul>
         <li>user_id: {{$photo->user_id}}</li>
         <li><img src="{{$photo->img}}" alt=""></li>
