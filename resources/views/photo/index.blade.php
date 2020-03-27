@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="posts">
+  <div class="photo">
   @foreach ($photos as $photo)
     <div class="post">
       <h2>Nome dell'utente della foto {{$photo->user->name}}</h2>
